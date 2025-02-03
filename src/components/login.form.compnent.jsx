@@ -35,7 +35,7 @@ const LoginForm = () => {
   const handleLogin = async (values) => {
     try {
       const response = await axios.post(
-        "https://app-server-theta.vercel.app/auth/login",
+        "https://server-setup-express.vercel.app/auth/login",
         {
           email: values.email,
           password: values.password,
